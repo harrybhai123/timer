@@ -30,9 +30,9 @@ let timer = () => {
     milliSeconds.innerHTML = "0" + 0;
   }
 
-//   if (sec > 9) {
-//     seconds.innerHTML = sec;
-//   }
+  if (sec > 9) {
+    seconds.innerHTML = sec;
+  }
 };
 
 start.addEventListener("click", function () {
