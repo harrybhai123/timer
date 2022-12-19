@@ -38,9 +38,11 @@ let timer = () => {
 start.addEventListener("click", function () {
   interval = setInterval(timer, 20);
 });
+
 stop.addEventListener("click", function () {
   clearInterval(interval);
 });
+
 reset.addEventListener("click", function () {
   clearInterval(interval);
   sec = "00";
