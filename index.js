@@ -18,9 +18,9 @@ let timer = () => {
   if (milliSec < 9) {
     milliSeconds.innerHTML = "0" + milliSec;
   }
-  if (milliSec > 9 || sec > 9) {
+  if (milliSec > 9 ) {
     milliSeconds.innerHTML = milliSec;
-     seconds.innerHTML = sec;
+     
   }
 
   if (milliSec > 99) {
